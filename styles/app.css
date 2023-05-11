@@ -1,0 +1,187 @@
+
+/* estilos del sidebar lateral izquierdo*/
+
+.backgroundside{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('../assets/img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.logoapp{
+    width: 50px;
+    height: 50px;
+}
+/* olvidaste tu contraseña*/
+.body-forgot{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('../assets/img/bg.jpg');
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-forgot{
+    background: url('../assets/img/forgot.PNG');
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    background-position: center;
+    background-size: cover;
+    filter:brightness(85%);
+}
+/*registro*/
+.h3{
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.container-registro{
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+.container-registroS{
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+
+.obligatorio {
+    color: red;
+}
+
+.text-danger {
+    color: #dc3545 !important;
+}
+
+.almacen-registro{
+    background-color: white;
+    border-radius: 1rem;
+    padding: .5rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15);
+    width: 100%;
+}
+
+.formulario-registro{
+    margin-top: 30px;
+    display: grid;
+    justify-content: center;
+    width: 100%;
+}
+
+.formulario-registro input::placeholder{
+    text-align: center;
+}
+
+.contenedor-botones {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+.btn-registrar, .btn-borrar{
+    background-color: #476f84;
+    width: 150px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: .3rem;
+    margin:10px;
+}
+
+.btn-registrar:hover, .btn-borrar:hover{
+    background-color: #6297b4;
+
+}
+
+/* .table-responsive{
+    background: #ffff;
+    padding: 15px;
+    border-radius: 5px;
+} */
+
+.table-responsive .btn{
+    /* margin: 10px 10px 10px 10px; */
+}
+
+.btn_excel{background: #476f84;}
+
+.btn_excel:hover{background: #6297b4;}
+
+.btn_pdf{background: #476f84;}
+
+.btn_pdf:hover{background: #6297b4;}
+
+.btn_csv{background: #476f84;}
+
+.btn_csv:hover{background: #6297b4;}
+
+.btn_copiar{background: #476f84;}
+
+.btn_copiar:hover{background: #6297b4;}
+
+.btn_imprimir{background: #476f84;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-radius: 16px !important;
+    width: 110px !important;}
+
+.btn_imprimir:hover{background: #6297b4;}
+
+
+
+
+
+
+
+
+.container-g{
+    display: grid;
+    grid-template-columns: 18rem 18rem;
+    width: 100%;
+    column-gap: 2rem;
+
+}
+
+.container-ch{
+    margin: 1rem;
+}
+
+.container-gSoldier{
+    display: grid;
+    grid-template-columns: 18rem 18rem;
+    width: 100%;
+    column-gap: 2rem;
+
+}
+
+.container-chSoldier{
+    margin: 1rem;
+}
+
+
+@media (max-width: 767px) {
+
+    .container-g{
+        display: grid;
+        grid-template-columns: 20rem;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .container-gSoldier{
+        display: grid;
+        grid-template-columns: 20rem;
+        width: 100%;
+        justify-content: center;
+    }
+    }
+
+
+
+
+
+

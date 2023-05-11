@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
+    <title>Contacto - FFAASTATUS</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    
+</head>
+<body>
+    <header>
+        <h1>
+            <img src="./assets/img/FFAAstatuslogo.png" class="logo" alt="logo">
+        </h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="contacto.html">Contacto</a>
+            <a class="btn" href="login.php">Log In</a>
+        </nav>
+
+    </header>
+    <main class="contenedor-formulario">
+        <form class="formulario" action="./partials/enviar.php" method="post" >
+            <fieldset>
+                <legend>Tus Datos</legend>
+                <div class="campo">
+                    
+                    <input id="nombreContacto"  name="nombreC" type="text" placeholder="Nombre Completo" required>
+                </div>
+                
+                <div class="campo">
+                    
+                    <input id="correoContacto" name="correoC" type="email" placeholder="Correo Electrónico" required>
+                </div>
+
+                <div class="campo">
+                    
+                    <input id="telefonoContacto" name="telefonoC" type="tel" placeholder="Teléfono"required>
+                </div>
+                
+                <div class="campo">
+                    
+                    <input id="asuntoContacto" name="asuntoC" type="text" placeholder="Asunto"required>
+                </div>
+
+                <div class="campo">
+                    
+                    <textarea id="MensajeContacto" name="mensajeC" placeholder="Máximo 300 caracteres" maxlength="300" required></textarea>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Pais</legend>
+                <div class="campo">
+                    
+                    <select id="paisContacto" name="paisC">
+                        <option value="" disabled selected>-- Seleccione --</option>
+                        <option value="MX" >México</option>
+                        <option value="CHL" >Chile</option>
+                        <option value="AR" >Argentina</option>
+                        <option value="PE" >Perú</option>
+                        <option value="BO" >Bolivia</option>
+                        
+                    </select>
+                </div>
+
+            </fieldset>
+
+            <div class="btn-display">
+                <input class="btn btn-form" type="submit" value="Enviar"> 
+                <input class="btn btn-form" type="reset" value="Limpiar">
+            </div>
+            
+
+        </form>
+    </main>
+    <footer class="pie">
+        <p>Todos los derechos reservados M.Pérez - M.González 2023</p>
+    </footer>
+
+</body>
+</html>
