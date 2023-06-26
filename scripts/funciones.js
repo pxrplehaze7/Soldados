@@ -1,3 +1,5 @@
+//FUNCIONES
+
 function rango_rama(elemento, id_input_de_grades) { //inputgradeperfil o inputgrade
     const id_rama = elemento.value
     // alert(id_input)
