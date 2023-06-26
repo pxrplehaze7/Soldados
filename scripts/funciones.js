@@ -1,4 +1,4 @@
-//LISTO
+// CAMBIOS
 
 function rango_rama(elemento, id_input_de_grades) { //inputgradeperfil o inputgrade
     const id_rama = elemento.value
